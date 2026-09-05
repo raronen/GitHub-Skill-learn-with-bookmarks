@@ -1,0 +1,46 @@
+{
+  "title": "Example Topic",
+  "overviewName": "00 - Open Example Topic Overview",
+  "overviewPath": "C:\\Users\\user\\OneDrive - Microsoft\\Documents\\Learning Bookmarks\\example-topic\\example-topic-overview.html",
+  "links": [],
+  "folders": [
+    {
+      "name": "01 - Request Entry",
+      "links": [
+        {
+          "name": "01. Endpoint receives request (Public API)",
+          "url": "https://example.invalid/source"
+        },
+        {
+          "name": "02. Handler validates request (Public API)",
+          "url": "https://example.invalid/validation"
+        }
+      ],
+      "folders": []
+    },
+    {
+      "name": "02 - Downstream Handoff",
+      "links": [
+        {
+          "name": "01. Client sends request (Service A)",
+          "url": "https://example.invalid/client"
+        },
+        {
+          "name": "02. Endpoint accepts request (Service B)",
+          "url": "https://example.invalid/downstream"
+        }
+      ],
+      "folders": []
+    },
+    {
+      "name": "03 - Response Path",
+      "links": [
+        {
+          "name": "01. Result is mapped and returned (Public API)",
+          "url": "https://example.invalid/response"
+        }
+      ],
+      "folders": []
+    }
+  ]
+}
